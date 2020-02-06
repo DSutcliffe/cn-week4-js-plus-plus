@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+body {
+    text-align: center;
+}
+
+.playerContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-family: 'Sigmar One', cursive;
+    margin: 0;
+    background-color: #7fcd91;
+    border-bottom: solid 1px;
+}
+
+img {
+    height: 250px;
+    /* width: 150px; */
+}
+
+p {
+    text-align: left;
+}
+
+button {
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    background-color: #f5eaea;
+    width: 50px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.p1Container {
+    border: solid 5px;
+    width: 350px;
+}
+
+.p2Container {
+    border: solid 5px;
+    width: 350px
+}
+
+#p1StatName1, #p1StatName2, #p1StatName3, #p1StatName4, #p1StatName5, #p2StatName1, #p2StatName2, #p2StatName3, #p2StatName4, #p2StatName5 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    width: 100px;
+}
+
+.statNameVal {
+    background-color: #5b5656;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 1px;
+}
